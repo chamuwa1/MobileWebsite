@@ -416,47 +416,47 @@
     display: flex;
 }
 .home .banners .container .left_box .box {
-    width: 100%; /* Make the box responsive */
-    max-width: 265px; /* Limit the width to prevent it from getting too large */
-    height: auto; /* Automatically adjust height based on the image aspect ratio */
-    overflow: hidden; /* Hide any overflow if image doesn't fit perfectly */
+    width: 100%; 
+    max-width: 265px; 
+    height: auto; 
+    overflow: hidden; 
     display: flex;
     justify-content: center;
-    align-items: center; /* Center the image inside the box */
-    border: 2px solid #ddd; /* Optional: Add a border around the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    align-items: center; 
+    border: 2px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;
   }
   
   .home .banners .container .left_box .box img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Ensures the image covers the area of the box without distortion */
+    object-fit: cover; 
     
   }
   .home .banners .container .right_box {
-    width: 100%; /* Full width */
-    display: flex; /* Optional: If you want to align multiple elements inside */
-    flex-direction: column; /* Stack elements vertically */
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
   }
   
   .home .banners .container .right_box .top {
-    max-width: 100%; /* Limit the width to the container's width */
+    max-width: 100%; 
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
     margin-left: 10px;
-    gap: 10px; /* Add spacing between items */
+    gap: 10px; 
   }
   
   .home .banners .container .right_box .top img {
     width: 50%;
-    height: auto; /* Maintain the aspect ratio */
-    max-height: 270px; /* Limit the height to prevent excessively large images */
-    object-fit: contain; /* Ensure the entire image fits inside the box */
-    border: 1px solid #ccc; /* Optional: Add a border for better structure */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    height: auto; 
+    max-height: 270px; 
+    object-fit: contain; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
     object-fit: cover;
   }
   .home .banners .container .right_box .bottom
